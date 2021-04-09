@@ -624,8 +624,8 @@ Moe, moe, kyun!")
    `(smerge-refined-change ((,class (:background ,blue-3 :foreground ,white-0))))
 
    ;; Flyspell faces
-   `(flyspell-duplicate ((,class (:underline t foreground-color,orange-1))))
-   `(flyspell-incorrect ((,class (:background ,red-1 :foreground ,white-0 :bold t))))
+   `(flyspell-duplicate ((,class (:underline (:style wave :color ,orange-1)))))
+   `(flyspell-incorrect ((,class (:underline (:style wave :color ,red-1)))))
 
    ;; Semantic faces
    `(semantic-decoration-on-includes ((,class (:underline ,black-1))))
@@ -688,8 +688,8 @@ Moe, moe, kyun!")
    `(flymake-errline ((,class (:underline ,red-2))))
 
    ;; Flycheck
-   `(flycheck-error ((,class (:background ,red-2 :foreground ,white-0 :bold t))))
-   `(flycheck-warnline ((,class (:background ,orange-2 :foreground ,white-0 :bold t))))
+   `(flycheck-error ((,class (:style wave :color ,red-2))))
+   `(flycheck-warnline ((,class (:style wave :color ,orange-2))))
 
    ;; Malabar
    `(malabar-error-face ((,class (:underline ,red-2))))
